@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scenes/ButtonSon/ButtonSon.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Menu/Menu.gd" type="Script" id=2]
@@ -8,6 +8,8 @@
 [ext_resource path="res://Assets/Images/shrekFace.png" type="Texture" id=6]
 [ext_resource path="res://Assets/Sons/fart-sound-effect.ogg" type="AudioStream" id=7]
 [ext_resource path="res://Assets/Images/Poop_Emoji.png" type="Texture" id=8]
+[ext_resource path="res://Assets/Sons/caca_raviolis.ogg" type="AudioStream" id=9]
+[ext_resource path="res://Assets/Images/coffe.png" type="Texture" id=10]
 
 [node name="Menu" type="Node"]
 script = ExtResource( 2 )
@@ -42,3 +44,11 @@ margin_right = 1144.5
 margin_bottom = 479.266
 texture = ExtResource( 8 )
 son = ExtResource( 7 )
+
+[node name="ButtonSon4" parent="Ui" instance=ExtResource( 1 )]
+margin_left = 1290.16
+margin_top = 110.873
+margin_right = 1482.16
+margin_bottom = 302.873
+texture = ExtResource( 10 )
+son = ExtResource( 9 )
