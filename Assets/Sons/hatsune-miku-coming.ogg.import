@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/hatsune-miku-coming.ogg-6402dee0d732e74203c4f14e33415472.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sons/hatsune-miku-coming.ogg"
+dest_files=[ "res://.import/hatsune-miku-coming.ogg-6402dee0d732e74203c4f14e33415472.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

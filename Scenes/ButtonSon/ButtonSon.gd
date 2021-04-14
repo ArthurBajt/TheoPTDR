@@ -29,12 +29,14 @@ func setPlaying(val: bool):
 
 
 func play():
-	print("on joue l'audio")
+#	print("on joue l'audio")
+	self.player.play()
 	pass
 
 
 func stop():
-	print("on stop l'audio")
+#	print("on stop l'audio")
+	self.player.stop()
 	pass
 
 

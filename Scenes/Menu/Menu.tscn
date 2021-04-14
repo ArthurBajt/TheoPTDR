@@ -1,7 +1,13 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Scenes/ButtonSon/ButtonSon.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Menu/Menu.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Sons/hatsune-miku-coming.ogg" type="AudioStream" id=3]
+[ext_resource path="res://Assets/Images/miku.jpg" type="Texture" id=4]
+[ext_resource path="res://Assets/Sons/shrek-is-love-shrek-is-life-french-version.ogg" type="AudioStream" id=5]
+[ext_resource path="res://Assets/Images/shrekFace.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Sons/fart-sound-effect.ogg" type="AudioStream" id=7]
+[ext_resource path="res://Assets/Images/Poop_Emoji.png" type="Texture" id=8]
 
 [node name="Menu" type="Node"]
 script = ExtResource( 2 )
@@ -14,3 +20,25 @@ __meta__ = {
 }
 
 [node name="ButtonSon" parent="Ui" instance=ExtResource( 1 )]
+margin_left = 105.833
+margin_top = 229.306
+margin_right = 360.833
+margin_bottom = 484.306
+texture = ExtResource( 4 )
+son = ExtResource( 3 )
+
+[node name="ButtonSon2" parent="Ui" instance=ExtResource( 1 )]
+margin_left = 541.306
+margin_top = 73.4762
+margin_right = 796.306
+margin_bottom = 328.476
+texture = ExtResource( 6 )
+son = ExtResource( 5 )
+
+[node name="ButtonSon3" parent="Ui" instance=ExtResource( 1 )]
+margin_left = 889.505
+margin_top = 224.266
+margin_right = 1144.5
+margin_bottom = 479.266
+texture = ExtResource( 8 )
+son = ExtResource( 7 )
