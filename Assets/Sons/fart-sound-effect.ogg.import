@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/fart-sound-effect.ogg-642d88329a9a923034729adcb2dbd757.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sons/fart-sound-effect.ogg"
+dest_files=[ "res://.import/fart-sound-effect.ogg-642d88329a9a923034729adcb2dbd757.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

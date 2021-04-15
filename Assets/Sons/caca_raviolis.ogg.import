@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/caca_raviolis.ogg-6516aef7c700fb8e7f7b812ab7144b33.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sons/caca_raviolis.ogg"
+dest_files=[ "res://.import/caca_raviolis.ogg-6516aef7c700fb8e7f7b812ab7144b33.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
